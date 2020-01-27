@@ -9,7 +9,7 @@ function nowServing(katzDeliLine){
     return 'There is nobody waiting to be served!'
   }
   else{
-    return 'Currently serving '+katzDeliLine[0];
+    return 'Currently serving '+katzDeliLine[0]+'.';
     katzDeliLine.shift();
   }
 }
@@ -23,6 +23,6 @@ function currentLine(katzDeliLine){
       lineOrder[x]=x+1+'. '+katzDeliLine[x]+' ';
     }
   }
-  return lineOrder;
+  return 'The line is currently: 'lineOrder;
 }
 takeANumber(deliLine,'Ada');
