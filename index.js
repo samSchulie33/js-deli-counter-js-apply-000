@@ -23,6 +23,6 @@ function currentLine(katzDeliLine){
       lineOrder[x]=x+1+'. '+katzDeliLine[x]+' ';
     }
   }
-  return 'The line is currently: 'lineOrder;
+  return 'The line is currently: '+lineOrder;
 }
 takeANumber(deliLine,'Ada');
