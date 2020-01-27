@@ -22,3 +22,4 @@ function currentLine(katzDeliLine){
   }
   return lineOrder;
 }
+takeANumber 
