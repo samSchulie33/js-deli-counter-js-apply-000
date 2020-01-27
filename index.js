@@ -17,7 +17,8 @@ function currentLine(katzDeliLine){
   else{
     let lineOrder=[];
     for(let x=0;x<katzDeliLine.length;x++){
-      lineOrder[x]=x+1+'. '+katzDeliLine[x]
+      lineOrder[x]=x+1+'. '+katzDeliLine[x]+' ';
     }
   }
+  return lineOrder;
 }
