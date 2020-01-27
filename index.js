@@ -1,8 +1,8 @@
-function takeANumber(lineLength,newName){
-  return ('Welcome, '+newName+'. You are number '+lineLength+1+' in line.');
+function takeANumber(katzDeliLine,newName){
+  return ('Welcome, '+newName+'. You are number '+katzDeliLine.length+1+' in line.');
 }
 function nowServing(katzDeliLine){
-  if(lineLength.length===0){
+  if(katzDeliLine.length===0){
     return 'There is nobody waiting to be served!'
   }
   else{
@@ -11,5 +11,10 @@ function nowServing(katzDeliLine){
   }
 }
 function currentLine(katzDeliLine){
-  if(line)
+  if(katzDeliLine.length===0){
+    return 'The line is currently empty.'
+  }
+  else{
+    
+  }
 }
