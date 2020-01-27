@@ -9,7 +9,7 @@ function nowServing(katzDeliLine){
     return 'There is nobody waiting to be served!'
   }
   else{
-    return katzDeliLine[0] 
+    return 'currently serving '+katzDeliLine[0];
     katzDeliLine.shift();
   }
 }
